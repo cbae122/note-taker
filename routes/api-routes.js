@@ -1,5 +1,5 @@
 const router = require('express').Router();
-const { readAndAppend, readFromFile } = require('../helpers/fsUtils');
+const { readAndAppend, readFromFile, readAndRemove } = require('../helpers/fsUtils');
 const uuid = require('../helpers/uuid');
 
 // GET Route for retrieving all the feedback
@@ -32,6 +32,13 @@ router.post('/notes', (req, res) => {
   } else {
     res.json('Error - Title and Text require');
   }
+});
+
+// DELETE /api/notes/:id
+router.delete('/notes/:id', (req, res) => {
+    const id = req.params.id;
+    readAndRemove(id, './db/db.json');
+    res.json('Your note has been delete!');
 });
 
 module.exports = router;
