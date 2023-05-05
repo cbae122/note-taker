@@ -4,7 +4,8 @@
 
   ## Description
   
-  Note Taker will help users jot down quick notes and ideas or even tasks they need to complete or be reminded of. Note takes is simple enough to us for anyone. Write down your note and a quick description so you never forget.
+  - Note Taker will help users jot down quick notes and ideas or even tasks they need to complete or be reminded of. 
+  - Note taker is simple enough to us for anyone. Write down your note and a quick description so you never forget.
   
   ## Table of Contents (Optional)
   
@@ -31,19 +32,25 @@
   - Click save/disk button to save note
   - Click populated notes on the left column to review previous notes
   - Click trash bin to delete note
+  - Screenshot below for example
 
-  
+  ![Note Taker.](./public/assets/images/Screenshot%202023-05-05%20at%2011.41.51%20AM.png)
+
+
   ## Credits
   
-  - Diarmuid - Instructor. 
-  - Meg - TA who held office hours to help us code. Zoom recording of previous classes.
+    - Instructor Diarmuid Murphy - during office hours, reviewed broken codes and provided solutions 
+    - TA Meg Meyers - during office hours held coding session to teach us
+    - AskBCS Learning Assistants - helped troubleshoot code when needed
+    - Zoom recording of previous classes
+    - Google, w3schools.com, freecodecamp.org
 
   ## Tests
 
   To perform a test, run the commands below:
 
   ```
-  node index.js
+  npm start in console
   ```
 
   ## Questions
