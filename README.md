@@ -10,7 +10,6 @@
   
   - [Installation](#installation)
   - [Usage](#usage)
-  
   - [Credits](#credits)
   - [Test](#tests)
   - [Questions](#questions)
@@ -25,12 +24,19 @@
 
   ## Usage
 
-  Anyone needing to take quick note.
+  - Load application
+  - Click - Get Started
+  - Enter title for your note
+  - Enter your note or task
+  - Click save/disk button to save note
+  - Click populated notes on the left column to review previous notes
+  - Click trash bin to delete note
 
   
   ## Credits
   
-  Diarmuid - Instructor. Meg - TA who held office hours to help us code. Zoom recording of previous classes.
+  - Diarmuid - Instructor. 
+  - Meg - TA who held office hours to help us code. Zoom recording of previous classes.
 
   ## Tests
 
